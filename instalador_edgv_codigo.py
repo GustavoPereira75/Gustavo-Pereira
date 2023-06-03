@@ -10,4 +10,4 @@ dst_folder = os.path.join(os.getenv('APPDATA'), 'QGIS', 'QGIS3', 'profiles', 'de
 # Copia a pasta
 shutil.copytree(src_folder, os.path.join(dst_folder, os.path.basename(src_folder)))
 
-print('Pasta copiada com sucesso!')
+print('instalacao feita com sucesso!')
